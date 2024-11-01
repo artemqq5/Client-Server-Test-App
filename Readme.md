@@ -1,12 +1,19 @@
-# ABZ Agency Test Project
+# Client-Server Test Application
 
-This project demonstrates a simple application for user registration and data retrieval using the ABZ Agency API. The application is built with a focus on Clean Architecture and follows the Model-View-ViewModel (MVVM) design pattern, aiming for modular, maintainable, and testable code. The project also follows the SOLID principles to enhance code scalability and flexibility.
+This project demonstrates a simple application for user registration and data retrieval using API. The application is built with a focus on Clean Architecture and follows the Model-View-ViewModel (MVVM) design pattern, aiming for modular, maintainable, and testable code. The project also follows the SOLID principles to enhance code scalability and flexibility.
 
 ## Project Features
 
 1. **User List Pagination**: Fetches user data from the API in a paginated format.
 2. **User Registration**: Allows users to register by submitting their details along with an image.
 3. **Offline Connectivity Monitoring**: Tracks and handles network status changes to provide a more stable user experience.
+
+## Screenshots
+
+<div style="display: flex; gap: 10px;">
+  <img src="https://github.com/user-attachments/assets/9017f5e4-9776-49e3-ba83-abe22d925292" alt="User List Page" width="45%">
+  <img src="https://github.com/user-attachments/assets/93d265c3-5514-4726-b5e3-02ae7fe4aa90" alt="Registration Page" width="45%">
+</div>
 
 ## Libraries Used
 
