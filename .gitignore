@@ -1,0 +1,55 @@
+# Android Studio specific
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# Gradle specific
+.gradle
+/build
+/captures
+/externalNativeBuild
+.cxx
+.externalNativeBuild
+
+# Generated files
+gen/
+bin/
+out/
+
+# Signing files
+.signing/
+signing.properties
+
+# User-specific files
+*.DS_Store
+*.swp
+
+# Android specific
+local.properties
+/captures
+
+# IntelliJ IDEA files
+.idea/
+*.iws
+*.ipr
+
+# Others
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.war
+*.ear
+
+# Keystore files (ensure to keep this secure and private)
+*.jks
+
+# Kotlin
+.idea/kotlin
