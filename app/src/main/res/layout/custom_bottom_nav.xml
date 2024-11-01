@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#F8F8F8"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:id="@+id/nav_item_users"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/icon_users"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:src="@drawable/people" />
+
+        <TextView
+            android:id="@+id/text_users"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/users"
+            android:textSize="18sp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:textColor="#99000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nav_item_signup"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/icon_signup"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:src="@drawable/person_add" />
+
+        <TextView
+            android:id="@+id/text_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="@string/sign_up"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:textSize="18sp"
+            android:textColor="#99000000" />
+    </LinearLayout>
+
+</LinearLayout>
